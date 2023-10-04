@@ -1,0 +1,603 @@
+{"cars":[
+    {
+        "id": 0,
+        "name": "Sedan A",
+        "people": 5,
+        "fuel_type": "Petrol",
+        "mileage": "30 mpg",
+        "gear_type": "Automatic",
+        "price": "$25,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 1,
+        "name": "SUV X",
+        "people": 7,
+        "fuel_type": "Hybrid",
+        "mileage": "35 mpg",
+        "gear_type": "Automatic",
+        "price": "$35,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 2,
+        "name": "Hatchback B",
+        "people": 4,
+        "fuel_type": "Electric",
+        "mileage": "50 mpg",
+        "gear_type": "Automatic",
+        "price": "$30,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 3,
+        "name": "Pickup Truck C",
+        "people": 3,
+        "fuel_type": "Diesel",
+        "mileage": "25 mpg",
+        "gear_type": "Manual",
+        "price": "$28,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 4,
+        "name": "Convertible D",
+        "people": 2,
+        "fuel_type": "Petrol",
+        "mileage": "28 mpg",
+        "gear_type": "Automatic",
+        "price": "$40,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 5,
+        "name": "Sedan E",
+        "people": 5,
+        "fuel_type": "Petrol",
+        "mileage": "32 mpg",
+        "gear_type": "Automatic",
+        "price": "$27,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 6,
+        "name": "SUV Y",
+        "people": 7,
+        "fuel_type": "Hybrid",
+        "mileage": "40 mpg",
+        "gear_type": "Automatic",
+        "price": "$38,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 7,
+        "name": "Hatchback F",
+        "people": 4,
+        "fuel_type": "Electric",
+        "mileage": "55 mpg",
+        "gear_type": "Automatic",
+        "price": "$32,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 8,
+        "name": "Pickup Truck G",
+        "people": 3,
+        "fuel_type": "Diesel",
+        "mileage": "22 mpg",
+        "gear_type": "Manual",
+        "price": "$30,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 9,
+        "name": "Convertible H",
+        "people": 2,
+        "fuel_type": "Petrol",
+        "mileage": "25 mpg",
+        "gear_type": "Automatic",
+        "price": "$42,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 10,
+        "name": "Sedan I",
+        "people": 5,
+        "fuel_type": "Petrol",
+        "mileage": "28 mpg",
+        "gear_type": "Automatic",
+        "price": "$29,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 11,
+        "name": "SUV Z",
+        "people": 7,
+        "fuel_type": "Hybrid",
+        "mileage": "38 mpg",
+        "gear_type": "Automatic",
+        "price": "$40,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 12,
+        "name": "Hatchback J",
+        "people": 4,
+        "fuel_type": "Electric",
+        "mileage": "52 mpg",
+        "gear_type": "Automatic",
+        "price": "$33,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 13,
+        "name": "Pickup Truck K",
+        "people": 3,
+        "fuel_type": "Diesel",
+        "mileage": "23 mpg",
+        "gear_type": "Manual",
+        "price": "$31,200",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 14,
+        "name": "Convertible L",
+        "people": 2,
+        "fuel_type": "Petrol",
+        "mileage": "30 mpg",
+        "gear_type": "Automatic",
+        "price": "$45,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 15,
+        "name": "Sedan M",
+        "people": 5,
+        "fuel_type": "Petrol",
+        "mileage": "31 mpg",
+        "gear_type": "Automatic",
+        "price": "$28,800",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 16,
+        "name": "SUV W",
+        "people": 7,
+        "fuel_type": "Hybrid",
+        "mileage": "37 mpg",
+        "gear_type": "Automatic",
+        "price": "$37,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 17,
+        "name": "Hatchback N",
+        "people": 4,
+        "fuel_type": "Electric",
+        "mileage": "48 mpg",
+        "gear_type": "Automatic",
+        "price": "$34,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 18,
+        "name": "Pickup Truck O",
+        "people": 3,
+        "fuel_type": "Diesel",
+        "mileage": "24 mpg",
+        "gear_type": "Manual",
+        "price": "$29,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 19,
+        "name": "Convertible P",
+        "people": 2,
+        "fuel_type": "Petrol",
+        "mileage": "29 mpg",
+        "gear_type": "Automatic",
+        "price": "$43,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 20,
+        "name": "Sedan Q",
+        "people": 5,
+        "fuel_type": "Petrol",
+        "mileage": "29 mpg",
+        "gear_type": "Automatic",
+        "price": "$31,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 21,
+        "name": "SUV V",
+        "people": 7,
+        "fuel_type": "Hybrid",
+        "mileage": "42 mpg",
+        "gear_type": "Automatic",
+        "price": "$39,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 22,
+        "name": "Hatchback R",
+        "people": 4,
+        "fuel_type": "Electric",
+        "mileage": "51 mpg",
+        "gear_type": "Automatic",
+        "price": "$35,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 23,
+        "name": "Pickup Truck S",
+        "people": 3,
+        "fuel_type": "Diesel",
+        "mileage": "21 mpg",
+        "gear_type": "Manual",
+        "price": "$27,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 24,
+        "name": "Convertible T",
+        "people": 2,
+        "fuel_type": "Petrol",
+        "mileage": "27 mpg",
+        "gear_type": "Automatic",
+        "price": "$47,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 25,
+        "name": "Sedan U",
+        "people": 5,
+        "fuel_type": "Petrol",
+        "mileage": "30 mpg",
+        "gear_type": "Automatic",
+        "price": "$30,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+        {
+        "id": 26,
+        "name": "SUV A1",
+        "people": 7,
+        "fuel_type": "Petrol",
+        "mileage": "34 mpg",
+        "gear_type": "Automatic",
+        "price": "$36,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 27,
+        "name": "Hatchback B1",
+        "people": 4,
+        "fuel_type": "Electric",
+        "mileage": "53 mpg",
+        "gear_type": "Automatic",
+        "price": "$33,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 28,
+        "name": "Pickup Truck C1",
+        "people": 3,
+        "fuel_type": "Diesel",
+        "mileage": "26 mpg",
+        "gear_type": "Manual",
+        "price": "$29,800",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 29,
+        "name": "Convertible D1",
+        "people": 2,
+        "fuel_type": "Petrol",
+        "mileage": "31 mpg",
+        "gear_type": "Automatic",
+        "price": "$41,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 30,
+        "name": "Sedan E1",
+        "people": 5,
+        "fuel_type": "Petrol",
+        "mileage": "29 mpg",
+        "gear_type": "Automatic",
+        "price": "$26,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 31,
+        "name": "SUV Y1",
+        "people": 7,
+        "fuel_type": "Hybrid",
+        "mileage": "39 mpg",
+        "gear_type": "Automatic",
+        "price": "$37,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 32,
+        "name": "Hatchback F1",
+        "people": 4,
+        "fuel_type": "Electric",
+        "mileage": "54 mpg",
+        "gear_type": "Automatic",
+        "price": "$31,900",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 33,
+        "name": "Pickup Truck G1",
+        "people": 3,
+        "fuel_type": "Diesel",
+        "mileage": "27 mpg",
+        "gear_type": "Manual",
+        "price": "$32,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 34,
+        "name": "Convertible H1",
+        "people": 2,
+        "fuel_type": "Petrol",
+        "mileage": "26 mpg",
+        "gear_type": "Automatic",
+        "price": "$44,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 35,
+        "name": "Sedan I1",
+        "people": 5,
+        "fuel_type": "Petrol",
+        "mileage": "27 mpg",
+        "gear_type": "Automatic",
+        "price": "$27,900",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 36,
+        "name": "SUV Z1",
+        "people": 7,
+        "fuel_type": "Hybrid",
+        "mileage": "40 mpg",
+        "gear_type": "Automatic",
+        "price": "$38,800",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 37,
+        "name": "Hatchback J1",
+        "people": 4,
+        "fuel_type": "Electric",
+        "mileage": "49 mpg",
+        "gear_type": "Automatic",
+        "price": "$35,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 38,
+        "name": "Pickup Truck K1",
+        "people": 3,
+        "fuel_type": "Diesel",
+        "mileage": "25 mpg",
+        "gear_type": "Manual",
+        "price": "$32,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 39,
+        "name": "Convertible L1",
+        "people": 2,
+        "fuel_type": "Petrol",
+        "mileage": "28 mpg",
+        "gear_type": "Automatic",
+        "price": "$46,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 40,
+        "name": "Sedan M1",
+        "people": 5,
+        "fuel_type": "Petrol",
+        "mileage": "30 mpg",
+        "gear_type": "Automatic",
+        "price": "$28,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 41,
+        "name": "SUV W1",
+        "people": 7,
+        "fuel_type": "Hybrid",
+        "mileage": "36 mpg",
+        "gear_type": "Automatic",
+        "price": "$36,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 42,
+        "name": "Hatchback N1",
+        "people": 4,
+        "fuel_type": "Electric",
+        "mileage": "50 mpg",
+        "gear_type": "Automatic",
+        "price": "$33,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 43,
+        "name": "Pickup Truck O1",
+        "people": 3,
+        "fuel_type": "Diesel",
+        "mileage": "22 mpg",
+        "gear_type": "Manual",
+        "price": "$31,900",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 44,
+        "name": "Convertible P1",
+        "people": 2,
+        "fuel_type": "Petrol",
+        "mileage": "27 mpg",
+        "gear_type": "Automatic",
+        "price": "$48,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 45,
+        "name": "Sedan Q1",
+        "people": 5,
+        "fuel_type": "Petrol",
+        "mileage": "29 mpg",
+        "gear_type": "Automatic",
+        "price": "$29,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 46,
+        "name": "SUV V1",
+        "people": 7,
+        "fuel_type": "Hybrid",
+        "mileage": "33 mpg",
+        "gear_type": "Automatic",
+        "price": "$39,800",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 47,
+        "name": "Hatchback R1",
+        "people": 4,
+        "fuel_type": "Electric",
+        "mileage": "48 mpg",
+        "gear_type": "Automatic",
+        "price": "$37,300",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 48,
+        "name": "Pickup Truck S1",
+        "people": 3,
+        "fuel_type": "Diesel",
+        "mileage": "23 mpg",
+        "gear_type": "Manual",
+        "price": "$29,200",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 49,
+        "name": "Convertible T1",
+        "people": 2,
+        "fuel_type": "Petrol",
+        "mileage": "25 mpg",
+        "gear_type": "Automatic",
+        "price": "$45,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 50,
+        "name": "Sedan U1",
+        "people": 5,
+        "fuel_type": "Petrol",
+        "mileage": "30 mpg",
+        "gear_type": "Automatic",
+        "price": "$30,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 51,
+        "name": "SUV A2",
+        "people": 7,
+        "fuel_type": "Petrol",
+        "mileage": "34 mpg",
+        "gear_type": "Automatic",
+        "price": "$36,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 52,
+        "name": "Hatchback B2",
+        "people": 4,
+        "fuel_type": "Electric",
+        "mileage": "53 mpg",
+        "gear_type": "Automatic",
+        "price": "$34,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 53,
+        "name": "Pickup Truck C2",
+        "people": 3,
+        "fuel_type": "Diesel",
+        "mileage": "26 mpg",
+        "gear_type": "Manual",
+        "price": "$30,800",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 54,
+        "name": "Convertible D2",
+        "people": 2,
+        "fuel_type": "Petrol",
+        "mileage": "31 mpg",
+        "gear_type": "Automatic",
+        "price": "$42,000",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 55,
+        "name": "Sedan E2",
+        "people": 5,
+        "fuel_type": "Petrol",
+        "mileage": "29 mpg",
+        "gear_type": "Automatic",
+        "price": "$27,200",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 56,
+        "name": "SUV Y2",
+        "people": 7,
+        "fuel_type": "Hybrid",
+        "mileage": "38 mpg",
+        "gear_type": "Automatic",
+        "price": "$39,600",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 57,
+        "name": "Hatchback F2",
+        "people": 4,
+        "fuel_type": "Electric",
+        "mileage": "52 mpg",
+        "gear_type": "Automatic",
+        "price": "$32,300",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 58,
+        "name": "Pickup Truck G2",
+        "people": 3,
+        "fuel_type": "Diesel",
+        "mileage": "23 mpg",
+        "gear_type": "Manual",
+        "price": "$33,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    },
+    {
+        "id": 59,
+        "name": "Convertible H2",
+        "people": 2,
+        "fuel_type": "Petrol",
+        "mileage": "30 mpg",
+        "gear_type": "Automatic",
+        "price": "$47,500",
+        "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+    }
+]
+}
